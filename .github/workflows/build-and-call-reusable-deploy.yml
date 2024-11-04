@@ -33,7 +33,7 @@ jobs:
   call-reusable-deployment-workflow-job:
     needs: build-job
 
-    uses: LeonidUspeshny/shared-workflows/.github/workflows/reusable-deploy-shared-repo.yml@main
+    uses: LeonidUspeshny/sampleapp/tree/main/.github/workflows/reusable-deploy-shared-repo.yml@main
     with:
       package-name: .net-app
       app-name: appsvc1
